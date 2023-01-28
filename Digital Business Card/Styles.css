@@ -1,0 +1,40 @@
+body {
+}
+
+.img-PFP {
+	width: 250px
+}
+
+.card {
+	display: flex;
+	margin: auto;
+	width: 575px;
+	border: 3px dotted #F0D1D8;
+	font-family: open sans, trebuchet ms, sans-serif;
+	padding: 20px;
+	justify-content: space-around;
+	text-align: center;
+	background: #F0D1D8;
+	color: #2B2839;
+	border-bottom: 7px solid #0F4984;
+	border-radius: 20px;
+	box-shadow: 30px 30px 15px #2B2839;
+	animation: opacitychange 2s linear;
+}
+
+.border-pink {
+	align-items: center;
+	justify-content: space-around;
+}
+
+h3:hover {
+	background-color: #556175;
+}
+
+@keyframes opacitychange {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
